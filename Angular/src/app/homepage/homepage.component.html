@@ -1,0 +1,40 @@
+
+
+  <div class="car-container">
+    <!-- Existing content -->
+  
+    <div class="animation-container">
+      <img src="./../../assets/logo/logo_main-removebg-preview.png" alt="Car Logo" class="car-logo">
+      <h1 class="animation-text">Rent a Car NOW!!!</h1>
+    </div>
+  </div>
+  
+<div class="car-container">
+    <h2>Popular Sedans</h2>
+    
+    <div class="Brand">
+      <div class="places">
+          <ng-container *ngFor="let se of sedan">
+            <div class="content-1">
+              <img src="./../../assets/Sedans/{{se.carName}}.avif" />
+              <h3>{{se.carName}}</h3>
+              <h3>Rs.{{se.price}}</h3>
+              <button (click) = "rent()" class="my-button" type="button">Rent</button>
+            </div>
+          </ng-container>
+      </div>
+  
+    <h2>Popular SUVs</h2>
+    
+    <div class="places">
+      <ng-container *ngFor="let su of suv">
+        <div class="content-1">
+          <img src="./../../assets/SUVs/{{su.carName}}.avif" />
+          <h3>{{su.carName}}</h3>
+          <h3>Rs.{{su.price}}</h3>
+          <button (click) = "rent()" class="my-button" type="button">Rent</button>
+        </div>
+      </ng-container>
+  </div>
+  </div>
+  

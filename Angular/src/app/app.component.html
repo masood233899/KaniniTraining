@@ -1,0 +1,46 @@
+<head>
+     <!-- Other head elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  
+
+<nav *ngIf="isLoggedIn">
+    <div class="logo">
+      <img src="./../assets/logo/logo_main-removebg-preview.png" alt="Logo">
+    </div>
+    <ul class="menu">
+      <li *ngIf="roles== 'doctor'"><a  [routerLink]="['/admin']">Admin</a></li>
+      <li *ngIf="roles=='User' || 'Admin'"><a  [routerLink]="['/home']">Home</a></li>
+      <!-- <li><a routerLink="/login">Login</a></li> -->
+      <!-- <li><a routerLink="/signup">Signup</a></li> -->
+      <li>
+        <a (click)="logout()" style="cursor:pointer">Logout</a>
+    </li>
+    </ul>
+</nav>
+
+<router-outlet (activate)="checkLoggedInUser()" ></router-outlet>
+
+<footer>
+    <div class="footer-content">
+      <div class="privacy-policy">
+        <a href="/privacy-policy">Privacy Policy</a> | Updated: September 2023
+      </div>
+      <div class="social-media">
+        <a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/example"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="privacy-policy-content">
+      <p>Last updated: September 2023</p>
+      <p>We are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website.</p>
+      <p>Information Collection and Use:</p>
+      <ul>
+        <li>We may collect personal information such as your name, email address, and phone number when you voluntarily provide it to us through our contact forms.</li>
+        <li>We use this information to respond to your inquiries and provide the requested services.</li>
+        <li>We may also collect non-personal information such as IP addresses and browser information to analyze trends and improve our website's performance.</li>
+    </ul></div>
+
+  </footer>
+  

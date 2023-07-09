@@ -1,0 +1,29 @@
+<div class="btns">
+    <button [routerLink]="['/admin/add']" class="b1">Add</button>
+    <button [routerLink]="['/admin/update']" class="b2">Update</button>
+    <button [routerLink]="['/admin/delete']" class="b3">Delete</button>
+</div>
+<br>
+<br>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Car Name</th>
+                <th scope="col">Car Type</th>
+                <th scope="col">Price</th>
+                <th scope="col">Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let car of carlist">
+                <td>{{car.carId}}</td>
+                <td>{{car.carName}}</td>
+                <td>{{car.carType}}</td>
+                <td>{{car.price}}</td>
+                <td>{{car.availability}}</td>
+            </tr>
+        </tbody>  
+    </table>
+</div>

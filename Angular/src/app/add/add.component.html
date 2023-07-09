@@ -1,0 +1,22 @@
+<div class="db">
+    <div class="dialog-box" >
+        <i class="fa-solid fa-xmark fa-lg"
+          ></i>
+        <h2>Enter Details to Add</h2>
+        <form [formGroup]="addgrp">
+            <div>
+                <input formControlName="carName" placeholder="Car Name">
+            </div>
+            <div>
+                <input formControlName="carType" placeholder="Car Type">
+            </div>
+            <div>
+                <input formControlName="price" placeholder="Price">
+            </div>
+            <div>
+                <input formControlName="availability" placeholder="availability status">
+            </div>
+        </form>
+        <button class="cbtn" (click)="addbtn()">Submit</button>
+    </div>
+</div>

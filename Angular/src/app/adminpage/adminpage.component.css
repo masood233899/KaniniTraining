@@ -1,0 +1,38 @@
+.btns {
+    margin-top: 10%;
+    display: flex; 
+    margin-left: 40%;
+    
+    
+    
+}
+.b2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b1, .b2, .b3{
+    color: rgb(254, 254, 254);
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(40, 141, 107, 0.783);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.b1:hover, .b2:hover, .b3:hover{
+    box-shadow: 5px 3px;
+    background-color: burlywood;
+}
+table{
+    margin-top: 2%;
+    margin: 10%;
+    border: 2px solid black;
+    width: 80%;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
