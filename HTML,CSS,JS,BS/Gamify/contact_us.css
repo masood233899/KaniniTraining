@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    color: white;
+  }
+  
+  
+ 
+  
+  .hdr {
+
+    background-color: #121221;
+    margin-bottom: 30px;
+    box-shadow: 4px 2px 3px 4px rgb(179, 176, 183);
+  }
+
+  .navbar-nav li a {
+  
+    color: white;
+  } 
+
+ 
+  
+  
+  .navbar-nav li a:hover {
+    background-color: aliceblue;
+    color: #121218;
+    border-radius: 25px;
+  } 
+  body{
+    background: url("./images/contact1.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  
+  .contact h2{
+    text-align: center;
+    color:#ffffff;
+  }
+  .outerdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top:10px;
+    margin-bottom: 78px;
+  }
+  .contact{
+    width:500px;
+    height: 800px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: gray 0px 1px 0px, gray 0px 8px 24px, gray 0px 0px 0px;
+    background: transparent;
+  
+  }
+  .contact_head{
+    width:500px;
+    height: 80px;
+    
+  }
+  .contact_head h1{
+    color:#ffffff;
+    font-size: 30px;
+    position: relative;
+    left: 125px;
+    top:70px;
+  }
+  .form1 label{
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    top:40px;
+  }
+  .form1 input{
+    color:#ffffff;
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    top:40px;
+    background-color: #121226;
+    border:2px solid #ffffff;
+    border-radius: 5px;
+
+    
+  }
+  #message{
+    height: 150px;
+  }
+  #submit{
+    border-radius: 5px;
+    font-size: 25px;
+    width:130px;
+    background-color:#d43f8d;
+    color:#ffffff;
+    position: relative;
+    left: 175px;
+    top:50px;
+  }
+  #reset{
+    border-radius: 5px;
+    font-size: 25px;
+    width:130px;
+    background-color:#d43f8d;
+    color:#ffffff;
+    position: relative;
+    left: 175px;
+    top:10px;
+  }
+  #link{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  #submit:hover{
+    background-color: #121226;
+  }
+  #result{
+    display: none;
+    color:#ffffff;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    top:20px;
+
+
+
+  }
+  
+  
+  
+  footer{
+    padding-top: 5px;
+    background-color: #121221;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px 7px rgb(179, 176, 183);
+  }
+   
+  .img_logo{
+    width: 35px;
+    height: 35px;
+    padding-left: 0;
+  }
+   
+ 

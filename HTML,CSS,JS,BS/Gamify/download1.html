@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<!-- Bootstrap Usage
+    1. container-fluid for the main div
+    2. flex classes just below 1.
+
+ -->
+
+
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
+        <title>Game</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+        <link rel="stylesheet" href="download.css">
+        <script src="download.js" defer></script>
+
+    </head>
+    <body>
+        <div class="hdr d-flex flex-wrap sm ">
+            <header>
+                <div class="head m-4">
+                    <div class="logoname d-flex">
+                        <div class="logo">
+                            <img src="./images/logo1.jpg" width="60px" height="60px" alt="logo pic">
+                        </div>
+                        <div class="name ">
+                            <h2 class="game_name display-3 font-weight-bolder text-light px-3">Gamify</h2>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+            </header>
+            <header class="ml-auto">
+                <nav class="">
+                <div class="navbar-nav m-3">
+                    <div class="navlist ">
+                        <ul class="d-flex list-unstyled view m-3">
+                            <li class="nav-item active"><a href="home1.html"  class="px-3 h2 font-weight-light text-decoration-none nav-link overlay">Home</a></li>
+                            <li class="nav-item" ><a href="news.html" class="px-3 h2 font-weight-light text-decoration-none nav-link zoom">News</a></li>
+                            <li class="nav-item" ><a href="contact_us.html" class="px-3 h2 font-weight-light text-decoration-none nav-link zoom">Contact</a></li>
+                            <li class="nav-item" ><a href="login.html" class="px-3 h2 font-weight-light text-decoration-none nav-link zoom">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+        
+       <div class="section">
+            <div class="downloadcontainer">
+                <div class="d-flex">
+                
+                    <img src="./images/game1.jpg" class="image" alt="">
+                    <p class="game_details p-2 m-4 h4 font-weight-light text-light  ">
+                        <span class="h1">Knightly Warrior</span>
+                         is an action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fifth main installment in The Elder Scrolls series, following 2006's The Elder Scrolls IV: Oblivion, and was released worldwide for Microsoft Windows, PlayStation 3, and Xbox 360 on November 11, 2011.
+
+                        <br>  <br>&nbsp&nbsp&nbsp&nbsp The game is set 200 years after the events of Oblivion, and takes place in Skyrim, the northernmost province of Tamriel. Its main story focuses on the player's character, the Dragonborn, on their quest to defeat Alduin the indefinitely.
+                        <br> <br> &nbsp&nbsp&nbsp&nbsp&nbsp At the beginning of the with 10 choices for the latter including races of humans and fantasy races such as elves and orcs. The player chooses the character'sicka is depleted to cast spells, and stamina allows the character to perform heavy "power attacks" or sprint. A status bar for each attribute regenerate over time and can be refilled faster by drinking potions, casting regenerative spells, or through various enchantments.[5] <br> Characters gain experience indirectly, via leveling up skills. The 18 skills are divided evenly among the three schools of combat, magic, and stealth. Each skill has its own experience bar, which increases when the character performs an action in-game related to the skill. For example, crafting a dagger increases the Smithing skill, and dealing damage with a bow increases the Archery skill. When a skill's experience bar fills, the skill levels up and the bar is reset. <br> After enough skills level up, the character levels up, enabling the player to increase the maximum value of one of the three attributes and providing a perk point. Perk points can be spent immediately on a skill-specific perk or stored for later use.
+                        Skyrim was t <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp specifically for the game. The team opted for a unique and more diverse open world than Oblivion's Imperial Province of Cyrodiil, which game director and executive producer Todd Howard considered less interesting by comparison. <br><br> Upon release, the game received critical acclaim, with praise for its character advancement, world design, visuals, and dual-wielding combat, and is considered to be one of the greatest video games ever made. Criticism targeted the melee combat, dragon battles, and numerous technical issues present at launch. <br> The game shipped over seven million copies within the first week of its release, and sold 30 million copies on all platforms by 2016, making it one of the best-selling video games in history.                    </p>
+                </div>
+                <div class="">
+                    <button class="download_btn btn  m-4 p-2"><a href="./images/game1.jpg" class="text-light text-decoration-none" download="Game 1"><span class="download_text h3">Download</span> </a></button>
+                    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="text-light">(4,456)</span>
+                </div>
+                <div class="rating-box">
+                    <header id="ratestar">Help us in rating this game</header>
+                    <div class="stars">
+                      <i class="fa-solid fa-star" onclick="rate()"></i>
+                      <i class="fa-solid fa-star" onclick="rate()"></i>
+                      <i class="fa-solid fa-star" onclick="rate()"></i>
+                      <i class="fa-solid fa-star" onclick="rate()"></i>
+                      <i class="fa-solid fa-star" onclick="rate()"></i>
+                    </div>
+                </div>
+                    
+            </div>
+            
+        </div>
+        
+
+        
+       
+        
+          
+            
+        
+        <footer>
+            <div class="foot container-fluid">
+                <div class="social_media imgobj row m-1 ">
+                    <img class="img_logo d-flex img-rounded p-1 " src="./images/fb.png" alt="logo">
+                    <img class="img_logo d-flex img-rounded p-1" src="./images/insta.png" alt="logo">
+                    <img class="img_logo d-flex img-rounded p-1" src="./images/youtube.png" alt="logo">
+                </div>
+                <div class="resource">
+                    <h2 class="h1 text-light">Resource:</h2>
+                    <div class="res_content d-flex ">
+                      <div class="res1 h4 p-2 ">
+                        <a href="#" class="text-light">Support-A-Creator</a><br>
+                        <a href="#" class="text-light">Distribute on Epic Games</a><br>
+                        <a href="#" class="text-light">Careers</a><br>
+                        <a href="#" class="text-light">Company</a><br>
+                      </div>
+                      <div class="res2 h4 p-2 ">
+                        <a href="#" class="text-light">Fan Art Policy</a><br>
+                        <a href="#" class="text-light">UX Research</a><br>
+                        <a href="#" class="text-light">Store EULA</a><br>
+                      </div>
+                      <div class="res3 h4 p-2">
+                        <a href="#" class="text-light">Online Services</a><br>
+                        <a href="#" class="text-light">Community Rules</a><br>
+                        <a href="#" class="text-light">Epic Newsroom</a><br>
+                      </div>
+                    </div>
+                </div>
+                <div class="made">
+                    <h2 class="h1 text-light">Made by Gamify:</h2>
+                    <div class="made_content d-flex ">
+                        <div class="made1 p-2 h4">
+                            <a href="#" class="text-light">Battle Breakers</a><br>
+                            <a href="#" class="text-light">Fortnite</a><br>
+                            <a href="#" class="text-light">Infinity Blade</a><br>
+                        </div>
+                        <div class="made2 p-2 h4">
+                            <a href="#" class="text-light"> Robo Recall</a><br>
+                            <a href="#" class="text-light"> Shadow Complex</a><br>
+                            <a href="#" class="text-light">Unreal Tournament</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-white m-4">
+            <div class="copy_rights h4 px-4">
+                <p>© 2023, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners.   </p>
+            </div>
+            <div class="term d-inline-flex h4 px-3">
+                <div class="term_items p-2 ">
+                    <a href="#" class="text-light">Terms of Service</a>
+                </div>
+                <div class="term_items p-2 mx-4">
+                    <a href="#" class="text-light">Privacy PolicyStore </a>
+                </div>
+                <div class="term_items p-2">
+                    <a href="#" class="text-light">Refund Policy</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

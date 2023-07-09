@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("./images/login2.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.outerdiv{
+   width:450px;
+   height: 620px;
+   background:transparent;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border: 2px solid gray;
+   border-radius: 10px;
+   box-shadow: gray 0px 1px 0px, gray 0px 8px 24px, gray 0px 0px 0px;
+
+}
+.sign h1{
+   position: relative;
+   top:20px;
+   left:30px;
+   color: #fff;
+}
+.form1 label{
+   font-size: 25px;
+   position: relative;
+   top:50px;
+   color: #fff;
+
+}
+.form1 input{
+   color: #fff;
+   font-size: 20px;
+   height: 30px;
+   position: relative;
+   top:50px;
+   background-color: #121226;
+   border: 2px solid #fff;
+
+}
+#submit{
+   position: relative;
+   top:50px;
+   left:90px;
+   font-size: 20px;
+   width: 120px;
+   height: 35px;
+   background-color: #d43f8d;
+
+}
+#link{
+   text-decoration: none;
+   color: #fff;
+}
+#submit:hover{
+   background-color: #121226;
+}
+
+.msg1{
+   /* display: none; */
+   color: #fff;
+}
