@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h3>One-Stop Mobile Accessories</h3>
+
+    <div class="table_body">
+        <table>
+            <tr>
+                <td colspan="2" class="column_name">
+                    Personal Details
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1"><label for="name">Name</label></td>
+                <td><input type="text" name="name" id="name" class="txtfields" onblur="validatename()"></td>
+            </tr>
+
+            <tr>
+                <td colspan="1"><label for="ph">Phone Number</label></td>
+                <td><input type="tel" name="ph" id="ph" class="txtfields" onblur="validateph()"></td>
+            </tr>
+
+            <tr>
+                <td colspan="1"><label for="Email">Email</label></td>
+                <td><input type="email" name="Email" id="email" class="txtfields" onblur="validateemail()"></td>
+            </tr>
+
+            <tr>
+                <td ><label for="del">Delivery Address</label></td>
+                <td><textarea name="del" id="add" cols="50" rows="4" class="txtfields" onblur="validateadd()"></textarea>
+            </tr>
+            
+            <tr>
+                <td colspan="2" class="column_name">Combo Offers (Save upto Rs. 400 on each combo !!)</td>
+                
+            </tr>
+
+            <tr>
+                
+                <td rowspan="5"><input type="checkbox" id="opt1"><label for="">SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable</label>
+                <br> <br>
+                <input type="checkbox" name="two" id="opt2"><label for="two">SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable</label>
+                <br><br>
+                <input type="checkbox" id="opt3"><label for="">SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable</label>
+                <br><br>
+                <input type="checkbox" id="opt4"><label for="">SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable</label>
+                <br><br>
+                <input type="checkbox" id="opt5"><label for="">SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable</label>
+                <br>
+                </td>
+                <td>
+                    <label for="">Rs. 799 only</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="two">Rs. 899 only</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="">Rs. 1199 only</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Rs. 299 only</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Rs. 999 only</label>
+                </td>
+            </tr>
+        </tr>
+        <tr>
+            <td colspan="2"><label>*Enjoy 20% discount on purchasing combos worth 2000 and above!!</label></td>
+        </tr>
+
+        <input type="submit" value="PLACE ORDER" id="order" onclick="costCalculation()"/>
+                <p class="noselect" id="result"></p>
+
+            
+            
+
+            
+            
+        </table>
+    </div>
+    
+
+    
+</body>
+</html>
