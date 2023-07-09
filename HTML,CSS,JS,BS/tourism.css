@@ -1,0 +1,94 @@
+/* Set up general styling for the page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Style the header */
+  
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Style the navigation menu */
+  
+  nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the main content area */
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+  }
+  
+  .article img {
+    width: 100%;
+  }
+  
+  .article h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .article p {
+    margin: 10px 0;
+  }
+  
+  /* Style the footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
