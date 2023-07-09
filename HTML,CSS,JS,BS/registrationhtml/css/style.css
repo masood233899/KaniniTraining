@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    background-image: linear-gradient( rgb(218, 139, 139),rgb(236, 236, 165),rgb(166, 230, 166),rgb(203, 181, 203),rgb(128, 168, 125) );
+    border-color: red;
+    border-width: 2px 4px 2px 4px;
+    border-style: dashed;
+    margin: 30px 20%;
+    padding: 20px 10%;
+    font-style: Poppins;
+    
+}
+
+.regis {
+    background-image: inherit;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+

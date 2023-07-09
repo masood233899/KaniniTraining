@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <form action="" name="regis" class="regis">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname"><br><br>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id = lastname> <br> <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required> <br> <br>
+
+        <label for="pass">password</label>
+        <input type="password" id ="pass" required> <br> <br>
+
+        <label for="cpass">Confirm password</label>
+        <input type="text" id ="cpass" required> <br> <br>
+
+        <label for="add">Address</label>
+        <textarea name="address" id="add" cols="20" rows="10"> </textarea><br> <br>
+
+        <label for="mob">Mobile Number</label>
+        <input type="number" id = "mob" min="" max="" maxlength="10" required> <br><br>
+
+        <label for="tel">telephone</label>
+        <input type="tel" name="" id="tel" pattern="[0-9]{4} [0-9]{3} [0-9]{3}"> <br><br>
+    <fieldset>
+        <legend>subs</legend>
+        <label>Gender</label>
+        <input type="radio" id="m" name="gen"><label for="m">male</label>
+        <input type="radio" id = "f" name="gen"> <label for="f">Female</label><br> <br>
+
+        <label>Hobbies</label>
+        <input type="checkbox" id="s" name="hob"><label for="s">Singing</label>
+        <input type="checkbox" id="r"name="hob"><label for="r">Reading</label> <br><br>
+
+        <label>Extra Curricular</label>
+        <select name="" id="extra" size="8" multiple>
+            <optgroup label="military">
+                <option value="1">NCC</option>
+                <option value="2" selected>NSS</option>
+            </optgroup>
+            <optgroup label="charity">
+                <option value="3">Red Cross</option>
+                <option value="4">Yoga</option>
+            </optgroup>
+        </select> <br> <br>
+    </fieldset>
+        <label for="dob">DOB</label>
+        <input type="date" id ="dob">
+        <br><br>
+
+        <label for="col">Favourite Color</label>
+        <input type="color" id="col"> <br><br>
+
+        <input list = "browsers">
+        
+        <datalist id = "browsers">
+            <option value="1">chrome</option>    
+            <option value="2">edge</option>
+        </datalist> <br><br>
+
+        <input type="range" max="2" min="1" >
+
+        <br><br>
+        
+
+        <button onclick="alert('hi')">click me</button> <br><br>
+
+        <input type="submit" value="click" ><!-- if the value is not given - default is submit-->
+
+        <input type="reset" name="" id="" value="reset">
+    </form>
+</body>
+</html>

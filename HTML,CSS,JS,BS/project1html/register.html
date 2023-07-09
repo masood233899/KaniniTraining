@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="text-align: center; font-size: xx-large;"><b>Intelli Coaching</b></p>
+    <form action="" name="regis">
+        <fieldset style="background-color: aquamarine;">
+            <legend>User Registration</legend>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname"><br><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id = lastname> <br> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required> <br> <br>
+
+            <label for="add">Address:</label>
+            <textarea name="address" id="add" cols="20" rows="10"> </textarea><br> <br>
+
+            <label for="tel">Mobile:</label>
+            <input type="tel" name="" id="tel" pattern="[0-9]{4} [0-9]{3} [0-9]{3}"> <br><br>
+        
+            <label>Gender:</label>
+            <input type="radio" id="m" name="gen"><label for="m">male</label>
+            <input type="radio" id = "f" name="gen"> <label for="f">Female</label><br> <br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" id ="dob">
+            <br><br>
+
+            <label for="sub">Subjects required:</label>
+            <label for="data">Data Analytics</label>
+            <input type="checkbox" id="data" class="1">
+            <label for="machine">Machine Learning</label>
+            <input type="checkbox" id="machine" class="1">
+            <label for="artificial">Artificial Intelligence</label>
+            <input type="checkbox" id="artificial" class="1">
+            <label for="iot">IOT</label>
+            <input type="checkbox" id="iot"  class="1">
+            <!-- <input list = "sub">
+            
+            <datalist id = "sub">
+                <option value="1">chrome</option>    
+                <option value="2">edge</option>
+            </datalist> <br><br> -->
+
+            <br><br>
+            <label for="pass">password:</label>
+            <input type="password" id ="pass" required> <br> <br>
+
+            <label for="cpass">Confirm password:</label>
+            <input type="text" id ="cpass" required> <br> <br>
+
+            <input type="submit" value="Enroll">
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif; 
+line-height: 1.7em ;
+}
+ 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+max-width: 1200px;
+margin: auto;
+}
+
+
+#navbar {
+    background: #cb1083;
+    overflow :auto;
+}
+#navbar h1{
+ float:left;
+ padding-top: 30px;
+}
+
+#navbar ul{
+    list-style: none;
+float:right;
+}
+
+#navbar li{
+    float : left;
+}
+
+#navbar ul li a
+{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover{
+ background: #4397EA;
+ transition: all 0.5s;
+}
+
+#showcase {
+    background: url(../goahtml/images/goa-logo.jpg) no-repeat center center/cover;
+    height: 600px;
+    color: #333;
+}
+
+.showcase-content{
+    padding-top: 20px;
+    color: #333;
+}
+
+.showcase-content h2 {
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+.showcase-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.lead{
+    font-size:  16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+#btn {
+    padding: 10px;
+    background-color: #333;
+}

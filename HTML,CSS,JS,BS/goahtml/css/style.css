@@ -1,0 +1,123 @@
+
+
+
+.main_nav li {
+    float: left;
+    
+    font-size: larger;
+    margin: 0px 0px;
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+
+.main_nav li a{
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+    padding: 10px;
+    float: left;
+    
+}
+
+
+
+.hdiv {
+    width: 100%;
+}
+
+.commonheader {
+    float: left;
+    width: 25%;
+}
+
+
+.org_name {
+    float: left;
+    width: 35%;
+}
+
+
+.logo{
+    float: left;
+    width: 6%;
+    margin-left: 15px;
+    
+    
+}
+.search{
+    float: left;
+    width: 30%;
+    
+}
+
+.sec_logo {
+    width: 26%;
+   
+}
+
+#inp_search {
+    width: 400px;
+    margin-top: 50px;
+    
+}
+
+.latest_text {
+    float:left;
+}
+
+.latest_image {
+    margin-top: 17px;
+    margin-left: 7px;
+}
+
+.title1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    /* margin-top: 25px; */
+}
+
+.title2 {
+    font-size: 22px;
+    margin-top: 0px;
+    
+}
+
+.addnl_info a {
+    margin: 15px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.addnl_info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#main_content_title {
+    font-size: 30px;
+   
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.latest_update {
+    float: left;
+}
+
+.main_content_text {
+    width: 50%;
+}
+.main_content_image {
+    width: 50%;
+}
+
+.footerdiv1 {
+    display: flex;
+    justify-content: space-evenly;
+}
